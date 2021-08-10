@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <h2>CatPhotosApp</h2>
+    <main>
+      <h3>Cat Photos</h3>
+      <div class="lists">
+        <p>Click here to view more <a href = "#" target = "_blank">cat photos</p>
+        <a href = "#"><img src = "https://fcc.im/fcc-relaxing-cat" 
+                           alt = "little orange cat lying on its back"></a>
+          <h3>Cat Lists</h3>
+           <p>Things Cats <em>Love</em>:</p>
+            <ul>
+              <li>Cat nip</li>
+              <li>Laser Pointer</li>
+              <li>lasagna</li>
+              <img src = "lasagna.jpg" alt = "lasagna">
+            </ul>
+        <p>Things Cats <strong>Hate</strong>:</p>
+        <ol>
+          <li>Flea Treatment</li>
+          <li>Thunder</li>
+          <li>Other Cats</li>
+        </ol>
+      </div>
+      <img src = "cats.jpg" alt = "Cats">
+      <form action = "/submit-cat-photo">
+        <label for="indoor"><input id="indoor" 
+        type="radio" name="indoor-outdoor">indoor</label><br>
+        <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor">outdoor</label><br>
+        <label for="loving"><input id="loving" type="checkbox" name="personality">loving</label><br>
+        <label for="lazy"><input id="lazy" type="checkbox" name="personality">lazy</label><br>
+        <label for="energetic"><input id="energetic" type="checkbox" name="personality">energetic</label><br>
+        <input type="text" placeholder="cat photo URL" required>
+        <button type="submit">submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>No Copyright - <a href="https://freecodecamp.org">freecodecamp.org</a></p>
+    </footer>
+  </body>
+</html>
